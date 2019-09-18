@@ -35,4 +35,25 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem "pry-byebug"
+  gem "pry-rails"
+  gem "rails-controller-testing"
+end
+
+group :development do
+  gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'web-console', '>= 3.3.0'
+end
+
+group :test do
+  gem "database_cleaner"
+  gem "factory_girl_rails"
+  gem "faker"
+  gem "rspec"
+  gem "rspec-collection_matchers"
+  gem 'rspec-rails', '~> 3.8'
+  gem "shoulda-matchers"
+  gem "simplecov"
+  gem "simplecov-rcov", git: "https://github.com/rtcreativegroup/simplecov-rcov"
+  gem "warden-rspec-rails"
 end
