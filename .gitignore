@@ -47,3 +47,8 @@ bower.json
 # Ignore node_modules
 node_modules/
 
+# Extra files to ignore
+doc/
+*.swp
+*~
+.DS_Store
